@@ -1,0 +1,136 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('images/earth-3537401_1920.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: #d81f1f;
+    font-size:  100px;
+    font-family: fantasy
+    font-weight: 100;
+    width: 60%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #d81f1f;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.programes {
+    margin: 100px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+.service-details {
+    color: green;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    color: red;
+    font-size: 22px;
+}
+
+.icon {
+    color: #d81f1f;
+    font-size: 50px;
+    margin-left: 23px;
+}
+
+.program-title {
+    font-family: fantasy;
+    margin-left: -30px;
+}
+
+.telechargement {
+    margin-left: -50px;
+}
